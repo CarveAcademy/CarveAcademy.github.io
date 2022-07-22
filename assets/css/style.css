@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   text-decoration: none;
 }
 
 a:hover {
-  color: #86db9f;
+  color: rgb(211, 211, 211);
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #7ed899;
+  background:  rgb(211, 211, 211);
   color: #fff;
 }
 .back-to-top.active {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5fcf80;
+  border: 6px solid rgb(145, 31, 148);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header .logo a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 #header .logo img {
   max-height: 40px;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .get-started-btn {
   margin-left: 22px;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 .get-started-btn:hover {
-  background: #3ac162;
+  background: rgb(211, 221, 211);
   color: #fff;
 }
 @media (max-width: 768px) {
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .navbar .dropdown ul {
   display: block;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #37423b;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Banner_Home.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -402,8 +402,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: rgb(145, 31, 148);
+  border: 2px solid rgb(145, 31, 148);
 }
 @media (min-width: 1024px) {
   #hero {
@@ -455,7 +455,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #9ae1af;
+  background: rgb(211, 221, 211);
   margin: 4px 10px;
 }
 .section-title p {
@@ -471,7 +471,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   padding: 30px 0;
   color: #fff;
 }
@@ -506,10 +506,10 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .about .content .learn-more-btn {
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
@@ -519,7 +519,7 @@ section {
   display: inline-block;
 }
 .about .content .learn-more-btn:hover {
-  background: #3ac162;
+  background: rgb(211, 221, 211);
   color: #fff;
 }
 @media (max-width: 768px) {
@@ -538,7 +538,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   font-weight: 700;
 }
 .counts .counters p {
@@ -555,7 +555,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   border-radius: 4px;
   color: #fff;
 }
@@ -579,7 +579,7 @@ section {
   font-size: 14px;
 }
 .why-us .content .more-btn:hover {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   background: #fff;
 }
 .why-us .icon-boxes .icon-box {
@@ -587,12 +587,12 @@ section {
   background: #fff;
   padding: 40px 30px;
   width: 100%;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(211, 221, 211);;
 }
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
@@ -618,7 +618,7 @@ section {
   align-items: center;
   padding: 20px;
   transition: 0.3s;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(211, 221, 211);;
 }
 .features .icon-box i {
   font-size: 32px;
@@ -637,10 +637,10 @@ section {
   transition: 0.3s;
 }
 .features .icon-box:hover {
-  border-color: #5fcf80;
+  border-color: rgb(145, 31, 148);
 }
 .features .icon-box:hover h3 a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 
 /*--------------------------------------------------------------
@@ -648,7 +648,7 @@ section {
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(211, 221, 211);;
 }
 .courses .course-content {
   padding: 15px;
@@ -662,7 +662,7 @@ section {
   transition: 0.3s;
 }
 .courses .course-content h3 a:hover {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .courses .course-content p {
   font-size: 14px;
@@ -670,7 +670,7 @@ section {
 }
 .courses .course-content h4 {
   font-size: 14px;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   padding: 7px 14px;
   color: #fff;
   margin: 0;
@@ -683,7 +683,7 @@ section {
 }
 .courses .trainer {
   padding-top: 15px;
-  border-top: 1px solid #eef0ef;
+  border-top: 1px solid rgb(211, 221, 211);;
 }
 .courses .trainer .trainer-profile img {
   max-width: 50px;
@@ -707,7 +707,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(211, 221, 211);;
 }
 .trainers .member img {
   margin: -1px -1px 30px -1px;
@@ -739,7 +739,7 @@ section {
   transition: 0.3s;
 }
 .trainers .member .social a:hover {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .trainers .member .social i {
   font-size: 18px;
@@ -760,7 +760,7 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
   min-height: 200px;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(211, 221, 211);;
   position: relative;
   background: #fff;
 }
@@ -810,10 +810,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5fcf80;
+  border: 1px solid rgb(145, 31, 148);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5fcf80;
+  background-color: rgb(145, 31, 148);
 }
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
@@ -848,7 +848,7 @@ section {
   display: block;
   width: 100%;
   height: 1px;
-  background: #eef0ef;
+  background: rgb(211, 221, 211);;
   bottom: 0;
   left: 0;
 }
@@ -858,7 +858,7 @@ section {
   display: block;
   width: 60px;
   height: 1px;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   bottom: 0;
   left: 0;
 }
@@ -902,11 +902,11 @@ section {
   font-size: 15px;
 }
 .cource-details-tabs .nav-link:hover {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .cource-details-tabs .nav-link.active {
-  color: #5fcf80;
-  border-color: #5fcf80;
+  color: rgb(145, 31, 148);
+  border-color: rgb(145, 31, 148);
 }
 .cource-details-tabs .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
@@ -931,7 +931,7 @@ section {
   }
   .cource-details-tabs .nav-link.active {
     color: #fff;
-    background: #5fcf80;
+    background: rgb(145, 31, 148);
   }
 }
 
@@ -984,16 +984,16 @@ section {
   transition: 0.3s;
 }
 .events .read-more a:hover {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 .events .card:hover img {
   transform: scale(1.1);
 }
 .events .card:hover .card-body {
-  border-color: #5fcf80;
+  border-color: rgb(145, 31, 148);
 }
 .events .card:hover .card-body .card-title a {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 
 /*--------------------------------------------------------------
@@ -1003,7 +1003,7 @@ section {
   padding: 20px;
   background: #fff;
   text-align: center;
-  border: 1px solid #eef0ef;
+  border: 1px solid rgb(211, 221, 211);;
   border-radius: 0;
   position: relative;
   overflow: hidden;
@@ -1019,7 +1019,7 @@ section {
 }
 .pricing h4 {
   font-size: 36px;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1046,7 +1046,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing ul i {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1061,7 +1061,7 @@ section {
   text-align: center;
 }
 .pricing .btn-buy {
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   display: inline-block;
   padding: 8px 35px;
   border-radius: 50px;
@@ -1074,11 +1074,11 @@ section {
   transition: 0.3s;
 }
 .pricing .btn-buy:hover {
-  background: #3ac162;
+  background: rgb(211, 221, 211);
 }
 .pricing .featured h3 {
   color: #fff;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
 }
 .pricing .advanced {
   width: 200px;
@@ -1089,7 +1089,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   color: #fff;
 }
 
@@ -1105,7 +1105,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   float: left;
   width: 44px;
   height: 44px;
@@ -1133,7 +1133,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   color: #fff;
 }
 .contact .php-email-form {
@@ -1157,7 +1157,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: rgb(211, 221, 211);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1175,7 +1175,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid rgb(145, 31, 148);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1186,7 +1186,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5fcf80;
+  border-color: rgb(145, 31, 148);
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1195,7 +1195,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1203,7 +1203,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #3ac162;
+  background: rgb(145, 31, 148);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1228,7 +1228,7 @@ section {
 #footer {
   color: #37423b;
   font-size: 14px;
-  background: #eef0ef;
+  background: rgb(211, 221, 211);
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
@@ -1268,7 +1268,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
   font-size: 18px;
   line-height: 1;
 }
@@ -1288,7 +1288,7 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 #footer .footer-newsletter {
   font-size: 15px;
@@ -1323,30 +1323,30 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: rgb(145, 31, 148);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #3ac162;
+  background: rgb(145, 31, 148);
 }
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
 }
 #footer .credits a {
-  color: #3ac162;
+  color: rgb(145, 31, 148);
   transition: 0.3s;
 }
 #footer .credits a:hover {
-  color: #5fcf80;
+  color: rgb(145, 31, 148);
 }
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: rgb(175, 175, 175);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1358,7 +1358,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: rgb(145, 31, 148);
   color: #fff;
   text-decoration: none;
 }
