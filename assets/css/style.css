@@ -747,6 +747,13 @@ section {
   margin: 0 2px;
 }
 
+.trainers_link:hover {
+  opacity: 0.9;
+  top: 100%;
+  visibility: visible;
+  transform: scale(1.1);
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
